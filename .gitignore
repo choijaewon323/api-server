@@ -1,0 +1,56 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+.github/
+
+support/
+storage/db/src/main/resources/db.yml
+storage/db/src/main/java/**/token/
+storage/db/src/main/java/**/user/
+domain/src/test/java/**/util/
+domain/src/test/java/**/video/YoutubeUrlTest.java
+domain/src/test/java/**/video/VideoServiceTest.java
+domain/src/test/java/**/video/VideoMockRepository.java
+domain/src/test/java/**/shorts/ShortsMockRepository.java
+domain/src/main/java/**/token/
+domain/src/main/java/**/user/
+domain/src/main/java/**/video/YoutubeUrl.java
+cotuber-api/src/main/resources/oauth.yml
+cotuber-api/src/main/java/**/api/UserInfoResponseDto.java
+cotuber-api/src/main/java/**/auth/
+cotuber-api/src/main/java/**/config/
